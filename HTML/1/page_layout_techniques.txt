@@ -14,7 +14,7 @@ advantages of using semantic tags:
     2. Article tag: for an article on the page. <article>
 
     3. Aside tag: for content aside main content. for ads <aside>. seo will not detect
-                 it.
+                 z`it.
 
 code is given below,
 
