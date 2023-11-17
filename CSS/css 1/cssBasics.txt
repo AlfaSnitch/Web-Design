@@ -1,0 +1,6 @@
+different ways to include css in html
+    1. inline style:
+        => we directly embed our style information in individual html elements. example,
+            <p style="color:red"> this is a red paragph </p>
+        => this changes the color of this p tag only, emphasis on the only.
+        
