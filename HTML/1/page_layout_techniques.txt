@@ -1,0 +1,3 @@
+There are two types of tags,
+    1. semantic tags: functionality is cleared by the name itself. like, header, footer, main etc
+    2. non-semantic tags: not semantic tags. like div, span etc 
