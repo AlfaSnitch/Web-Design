@@ -1,0 +1,56 @@
+ps: /* comment */ and short-cut : ctrl + /
+
+Color property
+    => to change the color of the text
+    => color : red;
+
+Background color
+    => changes the Background color of an element
+    => background-color : green;
+    => emphasis on the element, if blocked then the whole width but if anchor(a) tag then just the text itself
+    => color will be how much space the element takes up
+
+Color Values:
+    => named color -- color : red;
+    => hexadecimal -- color: #ffffff;
+    => RGB colors  -- color: rgb(25,29,30);
+                      color: rgba(25,29,0.8);
+    => hsl color   -- color : hsl(30,100%,50%);
+                      color : hsla(30,100%,50%,0.2);
+    => HWB color   -- color : hwb(1.5078rad 20% 10% / 0.7);
+
+    => css recognizes 140+ predefined named colors.
+    
+    => RGB colors 
+        - allows for 16 million colors, specified by 3 numbers
+        - every color is a synthesis of red, green & blue
+        - format , rgb(red channel, green channel, blue channel) and each of the channel values from 0-255
+        - rgb color picker can be used in vs Code
+    
+    => hexadecimal colors
+        - short for rgb color
+        - 6 numbers , 2 for each channels and a '#' symbol at front
+        - 255 -> ff so rgb(255,255,0) -> #ffff00
+        - for specific colors we can reduce the six colors to 3, like #ffffff -> #fff, so when each pair is the same 
+        then we can do that
+    
+    => transparency, colors and opacity
+        - rgba(10,10,10,0.5), here 'a' is Alpha channel(transparency) which takes from 0-1
+        - its default value is 0
+
+CSS inheritance:
+    => some css properties, like color are inherited from parent element if no value is specified.
+    => other properties are not inherited and instead have a default initial value 
+    example,
+        <p> this is a css inheritance <em> color scheme </em>
+
+        p {
+            color: olive;
+        }
+
+        the <em> inherits the color from its parent, <p> tag
+
+    => 'border' attribute is not inherited, it will only apply to the element i am using it on.
+        - although we can use inheritance in border by setting its value to inheritance
+            border : inherit
+                -- this takes the value from its parent
