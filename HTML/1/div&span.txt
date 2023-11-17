@@ -1,0 +1,17 @@
+<div> </div>
+
+=> it is a container tag used for html elements.
+=> it is a non semantic tag.
+=> it is a blocked element,ie it takes the full width
+=> by default its height is 0 if no element is present in it.
+
+
+more about block elemnet and inline elements:
+    https://www.w3schools.com/html/html_blocks.asp
+    http://web.simmons.edu/~grovesd/comm244/notes/week4/block-inline
+
+
+<span> </span>
+ 
+=> span is also an element like div
+=> it is a inline element, ie takes width per size

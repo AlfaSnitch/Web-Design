@@ -1,0 +1,16 @@
+<select> </select>
+=> create a drop down
+
+<select name="city">
+    <option value="Rajshahi"> Khulna </option>
+    <option value="Rajshahi"> Rajshahi </option>
+    <option value="Dhaka"> Dhaka </option>
+    <option value="Barishal"> Barishal </option>
+</select>
+
+<input type=""> --> see mdn and w3schools
+
+<iframe src="link">
+    => to show another website in your website
+
+<video src=""></video>

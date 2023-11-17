@@ -1,0 +1,20 @@
+<form> </form>
+
+=> it is used to collect data from user
+=> ex: sign up/login/help/request/login
+
+Action attribute in form:
+    =>it is used to define what needs to be performed when a form is submitted.
+        <form action="/action.php">  --> specifing where the data of the form is going
+
+Form element:
+    => <input type="text" placeholder="enter name">
+        - this creates an input box with a placeholder saying enter name
+
+Label;
+    => give some name to input
+    => helps the screen reader people/ visually impaired people
+    <lable for="id1">
+        <input type="radio" value="class x" name="class" id="id1">
+    </label>
+    => if u click on text then the radio button will be ticked
