@@ -1,3 +1,47 @@
 There are two types of tags,
     1. semantic tags: functionality is cleared by the name itself. like, header, footer, main etc
     2. non-semantic tags: not semantic tags. like div, span etc 
+
+advantages of using semantic tags:
+    1. code becomes more readable
+    2. if website is made using pure html, then it helps to rank the website
+        higher.
+    3. good user experience.
+
+** Main tag:
+    1. section tag: for a section on the page. <section>
+
+    2. Article tag: for an article on the page. <article>
+
+    3. Aside tag: for content aside main content. for ads <aside>. seo will not detect
+                 it.
+
+code is given below,
+
+            <!DOCTYPE html>
+            <html lang="en">
+                <!-- this is a head tag -->
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>First Webpage</title>
+            </head>
+                <!-- this is the body tag -->
+            <body>
+                <header>
+                    <h1>Inside header section</h1>
+                </header>
+
+                <main>
+                    <section>Education section</section>
+                    <section>Project section</section>
+                    <article>for any story or article</article>
+                    <aside>for any ads</aside>
+                </main>
+
+                <footer>
+                    <h3>Inside footer section</h3>
+                </footer>
+
+            </body>
+            </html>
