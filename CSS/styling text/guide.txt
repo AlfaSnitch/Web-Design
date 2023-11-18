@@ -1,0 +1,87 @@
+-- changing fonts and font families
+    => if no fonts are choosen then each browser chooses its own default font
+        - to see the font-> browser->inspect->computed
+
+    => font-family requires the name of a font/ list of fonts, including an optional family of fonts.
+        - font-family : georgia, serif;
+            here, georgia is the font name and serif the family of fonts
+        again,
+          font-family : "Gill Sans" , sans-serif; here, "Gill Sans" is the list of fonts
+            - this means that use "Gill Sans" font but if u cant find it then use any sans serif font
+        
+    => two popular fonts are 'serif' and 'sans-serif'. see the difference from google.
+
+    => now there's a problem with choosing a font, as not every machine has the same set of fonts. So different
+       fonts can be displayed in different machines
+
+    => website -> www.cssfontstack.com -> it helps us to find the overlapped fonts in all machines
+
+    => but this problem can be solved if we link the font file with each html document.
+    
+    => font-family : option1, option2, option3,..... last_default_option;
+        - if option1 not found then option2 and keep doing that until last_default_option(a fall back family)
+        - last_default_option : sans-serif/ serif /monospace (any of the fonts from these family of fonts)
+    
+    => font is inherited.
+
+
+-- Font sizes:
+
+    => a lot of different units in font-sizes.
+
+    => pixels (px) is the default unit for font-sizes.
+
+    => inherited element. 
+
+
+-- Font-weight:
+    => boldness or the weight of the text.
+
+    => we can go from normal text to bold text and vice versa.
+
+    => normal -> 400 and bold -> 700
+
+
+-- Font-style:
+    => make text italisized or not italisized.
+
+    => font-style:intalic;
+
+
+-- Text-alignment: text-align
+    => aligns the text inside of the eliment where it resides.
+    
+    => it's inherited.
+
+    => direction:rtl; (right to left) and (left to right: ltr)
+
+
+-- letter-spacing:
+
+    => spacing between each letter
+
+    => default is 0 px
+
+    => we can also give negative values, which will shrink the text up.
+
+
+-- word-spacing:
+    => similar to letter spacing but in case of words.
+
+
+-- line-height:
+    => space between two lines.
+
+    => line-height:2.5; it will multiply the current line-height with 2.5
+
+
+-- text shadow:
+    => see the syntaxes from mdn
+
+    => text-shadow: 1px 1px 1px pink | offset-x offset-y blur-radius color;
+
+    => offset-x / offset=y specifies how many pixels should the shadow defer from the original text
+
+    => this offset value can be negative too.
+
+    => multiple shadows can be added by a comma.

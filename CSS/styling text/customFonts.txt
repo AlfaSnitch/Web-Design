@@ -1,0 +1,12 @@
+steps to include own custom fonts to the website that the browser can download, so we dont have to worry
+about each machines where the webiste is opened. they are,
+
+    - go to 'google fonts' where we can find fonts that we can use for free
+    - that website(googlefonts) helps to link the fonts that are hosted by the google fonts.
+
+    - search for the font and select which font-size and font-style you want to add to your website.
+    - then click the top right button named, 'view selected families'
+
+    - then copy the <link> to html and put it in the head section.
+
+    - also we can link the font to the css by copying the style section from google fonts website.
